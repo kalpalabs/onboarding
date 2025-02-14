@@ -1,0 +1,102 @@
+#####################
+# SPOT A100s 80G    #
+#####################
+
+Host spot-a100-80G-1
+  HostName 128.85.187.19
+  IdentityFile ~/.ssh/azure-key-rsa.pem
+  User azureuser
+
+Host spot-a100-80G-2
+  HostName 128.85.187.12
+  IdentityFile ~/.ssh/azure-key-rsa.pem
+  User azureuser
+
+Host spot-a100-80G-3
+  HostName 128.85.188.119
+  IdentityFile ~/.ssh/azure-key-rsa.pem
+  User azureuser
+
+Host spot-a100-80G-4
+  HostName 128.85.188.116
+  IdentityFile ~/.ssh/azure-key-rsa.pem
+  User azureuser
+
+Host spot-a100-80G-5
+  HostName 20.115.64.47
+  IdentityFile ~/.ssh/azure-key-rsa.pem
+  User azureuser
+
+#####################
+# SPOT A100x2 80G   #
+#####################
+
+Host spot-a100x2-80G-1
+  HostName 20.109.49.135
+  IdentityFile ~/.ssh/azure-key-rsa.pem
+  User azureuser
+
+##########################################
+##########################################
+#           DEDICATED GPUS               #
+##########################################
+##########################################
+
+#####################
+# H100x2 NVL 94G    #
+#####################
+
+Host h100-94Gx2-a1
+  HostName 172.172.64.157
+  IdentityFile ~/.ssh/azure-key-rsa.pem
+  User azureuser
+  Port 50000
+
+Host h100-94Gx2-a2
+  HostName 40.79.72.26
+  IdentityFile ~/.ssh/azure-key-rsa.pem
+  User azureuser
+  Port 50000
+
+#####################
+# H100 NVL 94G      #
+##################### 
+Host h100-94G-a1
+  HostName 137.116.71.98
+  IdentityFile ~/.ssh/azure-key-rsa.pem
+  User azureuser
+  Port 50000
+
+Host h100-94G-a2
+  HostName 13.77.90.123
+  IdentityFile ~/.ssh/azure-key-rsa.pem
+  User azureuser
+  Port 50000
+
+Host h100-94G-a3
+  HostName 104.209.210.193
+  IdentityFile ~/.ssh/azure-key-rsa.pem
+  User azureuser
+  Port 50000
+
+Host h100-94G-a4
+  HostName 20.242.107.107
+  IdentityFile ~/.ssh/azure-key-rsa.pem
+  User azureuser
+  Port 50000
+
+Host h100-94G-a5
+  HostName 172.191.232.101
+  IdentityFile ~/.ssh/azure-key-rsa.pem
+  User azureuser
+  Port 50000
+
+#####################
+# A100 80G          #
+##################### 
+
+Host a100-80G-a1
+  HostName 13.68.109.128
+  IdentityFile ~/.ssh/azure-key-rsa.pem
+  User azureuser
+  Port 50000
