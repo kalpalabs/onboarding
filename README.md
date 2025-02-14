@@ -26,6 +26,8 @@ chmod 400 ~/.ssh/azure-key-rsa.pem
 
 CMD+Shift+P to see names for all the VMs. Choose the right VM based on the guidelines in [compute_details.md](https://github.com/kalpalabs/onboarding/blob/main/compute_details.md)
 
+For now, you'll have to ask one of Prashant / Gautam / Koustav to turn-on / turn-off the VMs, we're finding ways to provide direct access for this to everyone.
+
 ### Setup your work directory
 SSH will take you to `/home/azureuser`, please create a root directory with your username like `/home/azureuser/pshishodia` and only work inside this directory. Do all git-clones inside this directory as well. 
 
